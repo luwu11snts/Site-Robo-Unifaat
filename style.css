@@ -4,7 +4,7 @@ nav{
     justify-content: center;
 }
 
-h1{
+h3{
     font-family: Josefin Sans;
     font-size: 30px;
     display: flex;
@@ -12,6 +12,29 @@ h1{
 }
 
 .navBarCentro{
-    background-color: red;
+    background-color: rgb(203, 32, 255);
     display: flex;
+    border-radius: 17%;
+    height: 10%;
+    width: 90%;
+}
+
+.Classificacao{
+    display: flex;
+    width: 15%;
+}
+
+.Equipes{
+    display: flex;
+    width: 15%;
+}
+
+.Eventos{
+    display: flex;
+    width: 15%;
+}
+
+.Perfil{
+    display: flex;
+    width: 15%;
 }
