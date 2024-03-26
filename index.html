@@ -1,33 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campeonato Robôs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Permanent+Marker&display=swap" rel="stylesheet">
     <style>
-        *{
+        * {
             font-family: "Nunito", sans-serif;
         }
-        .navbar-home{
+
+        .navbarMain {
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar-home {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             background-color: blueviolet;
+            border-radius: 35px;
+            width: 90%;
+        }
+
+        .item-logo {
+            margin: 0 0 0 25px;
+            font-style: normal !important;
+            font-size: 12pt;
+        }
+
+        .item-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .item-profile {
+            margin: 0 25px 0 0;
+        }
+
+        .prof-link {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .img-profile {
+            mix-blend-mode: darken;
+        }
+
+        .carrossel {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0 0 0;
+        }
+
+        .ranking-chaves {
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+        }
+
+        .keyBox {
+            width: 100px;
+            height: 20px;
+            background-color: blueviolet;
+            border-radius: 20px;
         }
     </style>
 
 </head>
-<body>
-    <nav class="navbar-home">
-        <div class="item">
-            <a href="http://" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><h2 style="color: rgb(255, 255, 255);">Campeonato de Robôs</h2></a>
-        </div>
-        <div class="item">
 
+<body>
+    <nav class="navbarMain">
+        <div class="navbar-home">
+            <div class="item-logo">
+                <a href="http://" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <h2 style="color: rgb(255, 255, 255);">Campeonato de
+                        Robôs</h2>
+                </a>
+            </div>
+            <div class="item-links">
+                <a href="" class="nav-link">Classificação</a>
+                <a href="" class="nav-link">Equipes</a>
+                <a href="" class="nav-link">Eventos</a>
+            </div>
+            <div class="item-profile">
+                <a href="" class="prof-link">
+                    <span>Perfil</span>
+                    <img src="https://avatars.mds.yandex.net/i?id=b8fd26c3bc3001b5202b5497e38612e7d4ec7224-9066077-images-thumbs&n=13"
+                        class="img-profile" width="35px" height="35px" alt="profile-foto">
+                </a>
+            </div>
         </div>
-        <div class="item"></div>
-        
     </nav>
-    
+
+    <div class="carrossel">
+        <p>{Team} Top 10 - {Team} Top 9 - {Team} Top 8 - {Team} Top 7</p>
+    </div>
+
+    <div class="ranking-chaves">
+
+        <table>
+            <tbody>
+                <tr style="display: grid; gap: 20px; margin: 0 0 50px 0;">
+                    <td class="keyBox"></td>
+                    <td class="keyBox"></td>
+                </tr>
+                <tr style="display: grid; gap: 20px;">
+                    <td class="keyBox"></td>
+                    <td class="keyBox"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <tbody>
+                <tr style="display: grid; gap: 20px; margin: 0 0 50px 0;">
+                    <td></td>
+                    <td class="keyBox"></td>
+                </tr>
+                <tr style="display: grid; gap: 20px; justify-content: space-between;">
+                    <td></td>
+                    <td></td>
+                    <td class="keyBox"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <tbody>
+                <tr style="display: grid; gap: 20px; margin: 0 0 50px 0;">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="keyBox"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <img src="https://cdn-icons-png.flaticon.com/128/3288/3288919.png" alt="Trofeu" width="35px" height="35px">
+
+        <table>
+            <tbody>
+                <tr style="display: grid; gap: 20px; margin: 0 0 50px 0;">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="keyBox"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <tbody>
+                <tr style="display: grid; gap: 20px; margin: 0 0 50px 0;">
+                    <td></td>
+                    <td class="keyBox"></td>
+                </tr>
+                <tr style="display: grid; gap: 20px; justify-content: space-between;">
+                    <td></td>
+                    <td></td>
+                    <td class="keyBox"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <tbody>
+                <tr style="display: grid; gap: 20px; margin: 0 0 50px 0;">
+                    <td class="keyBox"></td>
+                    <td class="keyBox"></td>
+                </tr>
+                <tr style="display: grid; gap: 20px;">
+                    <td class="keyBox"></td>
+                    <td class="keyBox"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
 </body>
+
 </html>
